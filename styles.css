@@ -1,0 +1,121 @@
+body{
+    background-color: #CDB8EA;
+    color: #7D7D7C;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    /* vertical-align: middle; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.title{
+    text-align: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.gamers{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 25px;
+}
+
+form{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input{
+    border-radius: 8px 8px 8px 8px;
+}
+
+input.buttonStart{
+    background-color: #C5ED7B;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input.buttonRestart{
+    background-color: #FDFA91;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+div.containerAll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.contentAll{
+    width: 75%;
+}
+
+div.content{
+    width: 70%;
+    border: 2px solid #A681D0;
+    background-color: #CBECFF;
+    border-radius: 8px 8px 8px 8px;
+}
+
+div.container{
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: block;
+    float:left;
+}
+
+div.tateti{
+    width: 312px;
+    height: 252px;
+    background-color: #CBECFF;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid #A681D0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.tateti div div{
+    width: 100px;
+    height: 80px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 2px;
+
+}
+
+div.tateti div:nth-child(odd) div:nth-child(odd){
+    background-color: #C5ED7B;
+}
+
+div.tateti div:nth-child(odd) div:nth-child(even){
+    background-color: #FBDB7E;
+}
+
+div.tateti div:nth-child(even) div:nth-child(even){
+    background-color: #C5ED7B;
+}
+
+div.tateti div:nth-child(even) div:nth-child(odd){
+    background-color: #FBDB7E;
+}
